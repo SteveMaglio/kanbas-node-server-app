@@ -16,7 +16,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: process.env.FRONTEND_URL
+    origin: "https://a6--lucky-brigadeiros-062bd6.netlify.app/"
   })
 );
 
